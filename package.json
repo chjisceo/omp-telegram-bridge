@@ -1,0 +1,19 @@
+{
+  "name": "omp-telegram-bridge",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "daemon": "bun run index.ts",
+    "cli": "bun run src/cli.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "grammy": "^1.43.0"
+  }
+}
